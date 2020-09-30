@@ -41,12 +41,12 @@ var dashRoutes = [
   //   icon: "folder-alt",
   //   component: Case,
   // },
-  // {
-  //   path: BASEDIR + "/registration",
-  //   name: "Registration",
-  //   icon: "chart",
-  //   component: Registration,
-  // },
+  {
+    path: BASEDIR + "/registration",
+    name: "Registration",
+    icon: "chart",
+    component: Registration,
+  },
 
   //{ redirect: true, path: BASEDIR+"/", pathTo: "/dashboard", name: "Dashboard" }
 ];

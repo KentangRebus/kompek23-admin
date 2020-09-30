@@ -158,7 +158,10 @@ class Staff extends React.Component {
                           tableClass="striped table-hover table-responsive"
                           rowsPerPage={10}
                           rowsPerPageOption={[5, 10]}
-                          initialSort={{ prop: "npm", isAscending: true }}
+                          initialSort={{
+                            prop: "created_at",
+                            isAscending: true,
+                          }}
                           onSort={onSortFunction}
                           labels={customLabels}
                         />

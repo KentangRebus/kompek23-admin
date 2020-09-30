@@ -13,4 +13,13 @@ export default {
   deleteWebinar(id) {
     return API.delete(`/webbinar/${id}`);
   },
+  getRegistration() {
+    return API.get("/registration");
+  },
+  enableRegistration(name) {
+    return API.post(`/registration/enable/${name}`);
+  },
+  disableRegistration(name) {
+    return API.post(`/registration/disable/${name}`);
+  },
 };
