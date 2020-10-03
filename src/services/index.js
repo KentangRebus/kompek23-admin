@@ -1,6 +1,9 @@
 import API from "./axios";
 
 export default {
+  login(payload) {
+    return API.post("login", payload);
+  },
   getStaff() {
     return API.get(`/staff`);
   },

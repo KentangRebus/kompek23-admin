@@ -47,7 +47,7 @@
     "react-masonry-component": "6.2.1",
     "react-notification-alert": "0.0.12",
     "react-numeric-input": "2.2.3",
-    "react-router-dom": "5.0.0",
+    "react-router-dom": "5.2.0",
     "react-scripts": "^2.1.8",
     "react-tagsinput": "3.19.0",
     "react-time-picker": "3.5.1",

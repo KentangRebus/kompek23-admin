@@ -1,178 +1,191 @@
-
 /*----------------------------------------------------------------
     Login and Registration Page - Transparent Background Style
 ------------------------------------------------------------------*/
 
 .loginpage {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-    .loginpage {
-        padding: 0 90px;
-    }
+  .loginpage {
+    padding: 0 90px;
+  }
 }
 
-@media (max-width: 992px){
-    .loginpage {
-        padding: 0 15px;
-    }
+@media (max-width: 992px) {
+  .loginpage {
+    padding: 0 15px;
+  }
 }
 
-
-@media (max-width: 767px){
-    .loginpage {
-        padding: 0 30px;
-    }
+@media (max-width: 767px) {
+  .loginpage {
+    padding: 0 30px;
+  }
 }
-
 
 .loginpage h1 a {
-    height: 92px;
-    margin: 0px auto 0px auto;
-    padding: 0;
-    text-decoration: none;
-    -moz-background-size: 345px 92px;
-    -o-background-size: 345px 92px;
-    background-size: 345px 92px;
-    background-color: transparent;
-    min-height: 92px;
-    width: auto;
-    background-image: url("../img/login-logo.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    text-indent: -9999px;
-    outline: 0;
-    overflow: hidden;
-    display: block;
+  height: 192px;
+  margin: 0px auto 0px auto;
+  padding: 0;
+  margin-top: 50px;
+  text-decoration: none;
+  -moz-background-size: 345px 92px;
+  -o-background-size: 345px 92px;
+  background-size: 345px 92px;
+  background-color: transparent;
+  min-height: 92px;
+  width: auto;
+  background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3d9Kk1lvMMjTT3GiYBK8gexoSa2nB3BC9qKIkFlnByEdk5F665r7vd2vwBx9jx0t1H99VsoHrRx3K9gPYndY63tt6F0y1sOiv8fY5cIK9XIZH29cp1fmeHtd6sWqCwlIa2d6qoZodW1vBRsHVd4mft9=w1731-h910-no?authuser=0");
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  outline: 0;
+  overflow: hidden;
+  display: block;
 }
 .loginpage form {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    margin-left: 0;
-    font-weight: 400;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    overflow: hidden;
-    background-color: transparent;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  font-weight: 400;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  overflow: hidden;
+  background-color: transparent;
 }
 .loginpage form .forgetmenot {
-    width: 100%;
-    display: block;
-    margin: 12px 0 11px 0!important;
-    font-weight: 400;
-    float: left;
-    margin-bottom: 0px;
+  width: 100%;
+  display: block;
+  margin: 12px 0 11px 0 !important;
+  font-weight: 400;
+  float: left;
+  margin-bottom: 0px;
 }
 .loginpage form p.submit {
-    display: inline-block;
-    width: 100%;
-    margin-top: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 15px;
 }
 .loginpage label {
-    font-size: 15px;
-    line-height: 25px;
-    width: 100%;
-    font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  width: 100%;
+  font-weight: 300;
 }
-.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text] {
-    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
-    -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
-    -ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
-    -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
-    /* text-shadow: 1px 1px 1px rgba(200,200,200,.1); */
-    
-    font-weight: 500;
+.loginpage form .input,
+.loginpage form input[type="checkbox"],
+.loginpage input[type="text"] {
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  /* text-shadow: 1px 1px 1px rgba(200,200,200,.1); */
+
+  font-weight: 500;
 }
-.loginpage form .input, .loginpage input[type=text] {
-    font-size: 19px;
-    width: 100%;
-    padding: 9px;
-    line-height: 25px;
-    margin: 5px 0 0px 0;
-    border: 1px solid transparent !important;
+.loginpage form .input,
+.loginpage input[type="text"] {
+  font-size: 19px;
+  width: 100%;
+  padding: 9px;
+  line-height: 25px;
+  margin: 5px 0 0px 0;
+  border: 1px solid transparent !important;
 }
-.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text] {
-    color: $accent-color
-    /*$accent-color*/
-    
-    ;
-    background: #fbfbfb;
+.loginpage form .input,
+.loginpage form input[type="checkbox"],
+.loginpage input[type="text"] {
+  color: $accent-color /*$accent-color*/;
+  background: #fbfbfb;
 }
-.loginpage #nav{
-    text-align: center;
+.loginpage #nav {
+  text-align: center;
 }
-.loginpage #nav a, .loginpage a {
-    color: rgba(255, 255, 255, 1);
-    font-size: 15px;
+.loginpage #nav a,
+.loginpage a {
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
 }
-.loginpage #nav a:hover, .loginpage a:hover, .loginpage #nav a:active, .loginpage a:active {
-    color: rgba(255, 255, 255, 1)
-    /*#ffffff*/
-    
-    ;
+.loginpage #nav a:hover,
+.loginpage a:hover,
+.loginpage #nav a:active,
+.loginpage a:active {
+  color: rgba(255, 255, 255, 1) /*#ffffff*/;
 }
-.loginpage, .loginpage form label, .loginpage form, .loginpage .message {
-    color: rgba(255, 255, 255, 1)
-    /*#ffffff*/
-    
-    ;
+.loginpage,
+.loginpage form label,
+.loginpage form,
+.loginpage .message {
+  color: rgba(255, 255, 255, 1) /*#ffffff*/;
 }
-.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text] {
-    background-color: rgba(255, 255, 255, 0.6)
-    /*#ffffff*/
-    
-    ;
+.loginpage form .input,
+.loginpage form input[type="checkbox"],
+.loginpage input[type="text"] {
+  background-color: rgba(255, 255, 255, 0.6) /*#ffffff*/;
 }
-.loginpage form .input:hover, .loginpage form input[type=checkbox]:hover, .loginpage input[type=text]:hover, .loginpage form .input:focus, .loginpage form input[type=checkbox]:focus, .loginpage input[type=text]:focus {
-    background-color: rgba(255, 255, 255, 0.8)
-    /*#ffffff*/
-    
-    ;
+.loginpage form .input:hover,
+.loginpage form input[type="checkbox"]:hover,
+.loginpage input[type="text"]:hover,
+.loginpage form .input:focus,
+.loginpage form input[type="checkbox"]:focus,
+.loginpage input[type="text"]:focus {
+  background-color: rgba(255, 255, 255, 0.8) /*#ffffff*/;
 }
-.loginpage #login_error, .loginpage .message {
-    background-color: rgba(255, 255, 255, 0.6)
-    /*#ffffff*/
-    
-    ;
+.loginpage #login_error,
+.loginpage .message {
+  background-color: rgba(255, 255, 255, 0.6) /*#ffffff*/;
 }
-.loginpage .message, .loginpage .message a, .loginpage #login_error, .loginpage #login_error a {
-    color: $accent-color
-    /*$accent-color*/
-    
-    ;
+.loginpage .message,
+.loginpage .message a,
+.loginpage #login_error,
+.loginpage #login_error a {
+  color: $accent-color /*$accent-color*/;
 }
 .register-social {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 .register-social a {
-    margin: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
 }
+
+body {
+}
+
+.login-bg {
+  background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3eQ8OuMHwdV3rVGWBN_-4O5LWfi7xikOmsb3ihWrO4Qa9_WS2nLt08w9Gz0ws1z3o2h0XrxR4HiWdKdhN5BhP_QOliuzQAH0MgLBOfiGewzrQOxGlhulWmuiQwehAkWaDBAHG5pt7OmEvMn51JE0I1o=w1718-h1145-no?authuser=0") !important;
+  min-height: 100vh;
+}
+
+.row {
+  margin: 0px;
+}
+
 .login_page {
-    background-color: $primary-color;
-    background-image: url('../img/login-bg.jpg');
-    background-attachment: fixed;
-    /*height: 100%;*/
-    /*max-height: 100%;*/
-    min-height: 100%;
-    /*overflow: hidden;*/
-    width: 100%;
+  background-color: $primary-color;
+  background-attachment: fixed;
+  /*height: 100%;*/
+  /*max-height: 100%;*/
+  min-height: 100%;
+  /*overflow: hidden;*/
+  width: 100%;
 }
- body.lockscreen {
-    background-color: #eeeeee;
-    background-image: none;
+body.lockscreen {
+  background-color: #eeeeee;
+  background-image: none;
 }
 .register-wrapper {
-    height: 100%;
-    overflow: auto;
-    overflow-x: hidden;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
 }
 #register {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 .login-wrapper {
-    height: 100%;
-    overflow: auto;
-    overflow-x: hidden;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
 }
