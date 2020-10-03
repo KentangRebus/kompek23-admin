@@ -43,6 +43,11 @@ class UniversityLayout extends React.Component {
   }
 
   componentDidMount() {
+    const token = localStorage.getItem("tokenId");
+    if (token === null || token === undefined) {
+      this.props.history.push("/login");
+    }
+
     /*if(navigator.platform.indexOf('Win') > -1){
             ps = new PerfectScrollbar(this.refs.mainPanel);
             document.body.classList.toggle("perfect-scrollbar-on");
