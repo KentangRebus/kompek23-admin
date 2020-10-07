@@ -35,12 +35,12 @@ var dashRoutes = [
     icon: "people",
     component: Participant,
   },
-  // {
-  //   path: BASEDIR + "/case",
-  //   name: "Case",
-  //   icon: "folder-alt",
-  //   component: Case,
-  // },
+  {
+    path: BASEDIR + "/case",
+    name: "Case",
+    icon: "folder-alt",
+    component: Case,
+  },
   {
     path: BASEDIR + "/registration",
     name: "Registration",

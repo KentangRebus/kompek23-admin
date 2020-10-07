@@ -21,7 +21,7 @@ class Case extends React.Component {
               <div className="col-xl-12">
                 <section className="box ">
                   <header className="panel_header">
-                    <h2 className="title float-left">All Case</h2>
+                    <h2 className="title float-left">Case File</h2>
                   </header>
                   <div className="content-body">
                     <div className="row">
