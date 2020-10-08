@@ -5475,19 +5475,23 @@ body .jvectormap-container svg path:hover {
   text-decoration: none;
   margin-bottom: 0px; }
 
-.ecommerce_product .thumb, .music_genre .thumb {
+.ecommerce_product .thumb,
+.music_genre .thumb {
   position: relative; }
 
-.ecommerce_product .thumb img, .music_genre .thumb img {
+.ecommerce_product .thumb img,
+.music_genre .thumb img {
   position: relative;
   z-index: 1; }
 
-.ecommerce_product img, .music_genre img {
+.ecommerce_product img,
+.music_genre img {
   width: 100%;
   height: auto;
   margin: 0; }
 
-.ecommerce_product .thumb .overlay, .music_genre .thumb .overlay {
+.ecommerce_product .thumb .overlay,
+.music_genre .thumb .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -5497,14 +5501,15 @@ body .jvectormap-container svg path:hover {
   color: #fff;
   background-color: rgba(33, 33, 33, 0.5);
   opacity: 0;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.5, 1);
   -moz-transition-timing-function: cubic-bezier(0.4, 0, 0.5, 1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.5, 1); }
 
-.ecommerce_product .thumb .overlay a i, .music_genre .thumb .overlay a i {
+.ecommerce_product .thumb .overlay a i,
+.music_genre .thumb .overlay a i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -5517,7 +5522,8 @@ body .jvectormap-container svg path:hover {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
-.ecommerce_product .thumb:hover .overlay, .music_genre .thumb:hover .overlay {
+.ecommerce_product .thumb:hover .overlay,
+.music_genre .thumb:hover .overlay {
   opacity: 1; }
 
 .team-member.aside-style .team-info {

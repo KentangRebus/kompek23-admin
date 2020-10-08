@@ -1,6 +1,4 @@
-import React from "react";
 import API from "./axios";
-import { useHistory } from "react-router-dom";
 
 export default {
   login(payload) {
@@ -26,5 +24,14 @@ export default {
   },
   disableRegistration(name) {
     return API.post(`/registration/disable/${name}`);
+  },
+  getCompetition() {
+    return API.get("/competition");
+  },
+  uploadFileCompetition(payload) {
+    return API.post("/competition", payload);
+  },
+  downloadFileCompetition(code) {
+    return API.get(`/competition/${code}`);
   },
 };
