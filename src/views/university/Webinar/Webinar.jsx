@@ -16,6 +16,12 @@ const header = [
   },
   { title: "Email", prop: "email", sortable: true, filterable: true },
   { title: "Phone", prop: "phone", sortable: true, filterable: true },
+  {
+    title: "Register Date",
+    prop: "created_at",
+    sortable: true,
+    filterable: true,
+  },
 ];
 
 const onSortFunction = {
@@ -163,6 +169,10 @@ class Webinar extends React.Component {
             <Row>
               <Col>Phone: </Col>
               <Col>{this.state.modalData.phone}</Col>
+            </Row>
+            <Row>
+              <Col>Register At: </Col>
+              <Col>{this.state.modalData.created_at}</Col>
             </Row>
           </Modal.Body>
           <Modal.Footer>
