@@ -170,6 +170,10 @@ class Webinar extends React.Component {
               <Col>Phone: </Col>
               <Col>{this.state.modalData.phone}</Col>
             </Row>
+            <Row>
+              <Col>Register At: </Col>
+              <Col>{this.state.modalData.created_at}</Col>
+            </Row>
           </Modal.Body>
           <Modal.Footer>
             <Button
