@@ -16,6 +16,12 @@ const header = [
   },
   { title: "Email", prop: "email", sortable: true, filterable: true },
   { title: "Phone", prop: "phone", sortable: true, filterable: true },
+  {
+    title: "Register Date",
+    prop: "created_at",
+    sortable: true,
+    filterable: true,
+  },
 ];
 
 const onSortFunction = {
