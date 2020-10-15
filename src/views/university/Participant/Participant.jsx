@@ -17,6 +17,12 @@ const header = [
   { title: "Team Name", prop: "team_name", sortable: true, filterable: true },
   { title: "Email", prop: "email", sortable: true, filterable: true },
   { title: "School", prop: "school", sortable: true, filterable: true },
+  {
+    title: "Register Date",
+    prop: "created_at",
+    sortable: true,
+    filterable: true,
+  },
 ];
 
 const onSortFunction = {
