@@ -97,8 +97,6 @@ class Case extends React.Component {
         iframe: path,
       });
 
-      // API.downloadFileCompetition(name);
-
       this.setState({
         show: true,
         variant: "success",
