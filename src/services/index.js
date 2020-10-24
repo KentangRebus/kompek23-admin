@@ -34,4 +34,7 @@ export default {
   downloadFileCompetition(code) {
     return API.get(`/competition/${code}`);
   },
+  getParticipant() {
+    return API.get("/participant");
+  },
 };

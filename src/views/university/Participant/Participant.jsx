@@ -55,28 +55,7 @@ class Participant extends React.Component {
   };
 
   async getStaffData(page) {
-    const data = await API.getStaff(page);
-    const staffData = data.data.data;
-    staffData.forEach((staff) => {
-      let divisionString = "";
-      staff.division = JSON.parse(staff.division);
-      staff.division.forEach((e) => {
-        if (e !== null || e !== "null") {
-          divisionString += `${e} \n`;
-        }
-      });
-      staff.division = divisionString;
-      let interviewString = "";
-      staff.interview = JSON.parse(staff.interview);
-      staff.interview.forEach((e) => {
-        interviewString += `${e} \n`;
-      });
-      staff.interview = divisionString;
-    });
-    console.log(staffData);
-    this.setState({
-      body: staffData,
-    });
+    const data = await API.getParicipant(page);
   }
 
   onRowClick(row) {
@@ -84,34 +63,34 @@ class Participant extends React.Component {
   }
 
   componentDidMount() {
-    // this.getStaffData();
+    this.getStaffData();
   }
 
   render() {
     return (
       <div>
-        <div className="content">
+        <div className='content'>
           <Row>
             <Col xs={12} md={12}>
-              <div className="page-title">
-                <div className="float-left">
-                  <h1 className="title">Participant</h1>
+              <div className='page-title'>
+                <div className='float-left'>
+                  <h1 className='title'>Participant</h1>
                 </div>
               </div>
 
-              <div className="col-12">
-                <section className="box ">
-                  <header className="panel_header">
-                    <h2 className="title float-left">Participant Data</h2>
+              <div className='col-12'>
+                <section className='box '>
+                  <header className='panel_header'>
+                    <h2 className='title float-left'>Participant Data</h2>
                   </header>
-                  <div className="content-body">
-                    <div className="row">
-                      <div className="col-lg-12 dt-disp">
+                  <div className='content-body'>
+                    <div className='row'>
+                      <div className='col-lg-12 dt-disp'>
                         <Datatable
                           tableHeaders={header}
                           tableBody={this.state.body}
-                          keyName="userTable"
-                          tableClass="striped table-hover table-responsive"
+                          keyName='userTable'
+                          tableClass='striped table-hover table-responsive'
                           rowsPerPage={10}
                           rowsPerPageOption={[5, 10]}
                           initialSort={{ prop: "npm", isAscending: true }}
