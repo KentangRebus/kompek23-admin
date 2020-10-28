@@ -21,7 +21,39 @@ Zest Admin React - v1.0.0
   margin-bottom: 20px;
 }
 
-.member-box {
+.customBtn {
+  font-size: 15px !important;
+  background-color: salmon !important;
+  height: 45px !important;
+  padding: 0 !important;
+}
+
+.purple {
+  background-color: #27a69a !important;
+}
+
+.blue {
+  background-color: #318fb5 !important;
+}
+
+.btn-icon {
+  width: 9vw !important;
+}
+
+.btn-icon svg {
+  width: 20px !important;
+}
+
+.svg-inline--fa {
+  float: left;
+}
+
+.modal-content {
+  width: 55vw !important;
+}
+
+.modal-dialog {
+  max-width: 55vw !important;
 }
 
 /*101*/

@@ -37,4 +37,16 @@ export default {
   getParticipant() {
     return API.get("/participant");
   },
+  downloadAllForm() {
+    return API.get("/participant/download/form/all");
+  },
+  downloadForm(id) {
+    return API.get(`/participant/download/form/${id}`);
+  },
+  downloadAllAnswer() {
+    return API.get("/participant/download/answer/all");
+  },
+  downloadAnswer(id) {
+    return API.get(`/participant/download/answer/${id}`);
+  },
 };
