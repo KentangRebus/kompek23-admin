@@ -167,6 +167,38 @@ class Participant extends React.Component {
     });
   };
 
+  async deleteParticipantData(id) {
+    try {
+      this.setState({
+        alertModal: {
+          variant: "warning",
+          show: true,
+          msg: "Deleting Participant Data, Please wait...",
+        },
+      });
+      let { data } = await API.deleteParticipant(id);
+      this.getParicipantData();
+      this.setState({
+        alertModal: {
+          variant: "success",
+          show: true,
+          msg: "Participant Data Deleted",
+        },
+      });
+
+      setTimeout(() => {
+        this.setState({
+          isShow: false,
+          alertModal: {
+            variant: "",
+            show: false,
+            msg: "",
+          },
+        });
+      }, 2000);
+    } catch (error) {}
+  }
+
   componentDidMount() {
     this.getParicipantData();
   }
@@ -495,7 +527,11 @@ class Participant extends React.Component {
               </span>
               Answer
             </Button>
-            <Button variant='danger' onClick={() => {}}>
+            <Button
+              variant='danger'
+              onClick={() => {
+                this.deleteParticipantData(this.state.modalData.id);
+              }}>
               Delete
             </Button>
           </Modal.Footer>

@@ -49,4 +49,7 @@ export default {
   downloadAnswer(id) {
     return API.get(`/participant/download/answer/${id}`);
   },
+  deleteParticipant(id) {
+    return API.post(`/participant/delete/${id}`);
+  },
 };
